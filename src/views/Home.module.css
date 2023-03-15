@@ -1,0 +1,8 @@
+.container {
+    text-align: center;
+    color:white;
+}
+.searchbar {
+    display: flex;
+    width: 100px;
+}
