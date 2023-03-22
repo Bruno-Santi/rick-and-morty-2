@@ -11,10 +11,13 @@ const Home = () => {
   };
 
   function onSearch(id) {
+    const URL_BASE = 'https://rickandmortyapi.com/api/character/'
+    const URL_LOCAL = 'http://localhost:3001/rickandmorty/character/'
     if (characters.find((char) => char.id === id)) {
       return window.alert("El personaje ya existe");
     }
-    fetch(`https://rickandmortyapi.com/api/character/${id}`)
+    // fetch(`https://rickandmortyapi.com/api/character/${id}`)
+    fetch(`http://localhost:3001/rickandmorty/onsearch/${id}`)
       .then((response) => response.json())
       .then((data) => {
         if (data.name) {
@@ -24,6 +27,7 @@ const Home = () => {
           window.alert("No hay personajes con ese ID");
         }
       });
+      
   }
 
   return (
