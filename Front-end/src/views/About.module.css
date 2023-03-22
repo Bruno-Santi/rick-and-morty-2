@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Comforta;
+    src: url('../../src/fonts/Comforta.ttf');
+}
+.container {
+    backdrop-filter: blur(12px);
+    border: 5px solid #14101080;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: beige;
+
+     
+}
+.titulo {
+    font-family: 'Comforta';
+    font-size: 60px;
+    color: rgb(236, 236, 160);
+    
+}
+.texto {
+    width: 30%;
+    font-family: 'Comforta';
+    font-size: 40px;
+    color: beige;
+    line-height: 50px;
+    padding: 20px;
+    margin-bottom: 25px;
+    backdrop-filter: blur(12px);
+}

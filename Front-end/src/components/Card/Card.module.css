@@ -1,0 +1,45 @@
+
+@font-face {
+    font-family: Comforta;
+    src: url('../../fonts/Comforta.ttf');
+}
+
+.contenedor {
+    display: inline-block;
+    padding: 15px;
+    text-align: center;
+    margin: 20px;
+    margin-top: 20px;
+    backdrop-filter: blur(12px);
+
+}
+
+.container {
+    display:inline-flex;
+    backdrop-filter: blur(12px);
+    border: 5px solid #14101080;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.datos {
+font-family: 'Comforta';
+color: beige;
+}
+
+.name {
+    font-family: 'Comforta';
+    color: rgb(236, 236, 160);
+    font-size: 40px;
+}
+
+.img {
+    border-radius: 15px;
+}
+
+.emojiButton {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 35px;
+  }
